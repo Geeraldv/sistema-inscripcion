@@ -1,0 +1,16 @@
+.input-err{
+    border-color: rgb(220, 11, 11);
+    border-width: medium;
+    
+}
+
+.input-sucess{
+    border-color: rgb(85, 227, 133);
+    border-width: medium;
+    
+}
+
+body{
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}

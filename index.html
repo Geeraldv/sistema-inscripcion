@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/lib/toastr/toastr.css">
+    <link rel="shortcut icon" href="assets/img/contrato.png" type="image/x-icon">
+    <title>Sistema de inscripcion</title>
+</head>
+<body>
+    <div class="container">
+        <div class='row'>
+            <div id='card-container' class="col-5 offset-3">
+                <div class="card mt-5 mb-5rounded-4">
+                    <div class="card-header bg-black text-light">
+                        <h4 class="text-center">Registre sus datos</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4 class="text-center">Complete toda la informacion</h4>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre:</label>
+                            <input type="text" class='form-control'  id="name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Provincia:</label>
+                            <input type="text" class='form-control'  id="provincia">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Ciudad:</label>
+                            <input type="text" class='form-control'  id="ciudad">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Sector:</label>
+                            <input type="text" class='form-control'  id="sector">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Calle:</label>
+                            <input type="text" class='form-control'  id="calle">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Carrera:</label>
+                            <select class="form-select" id="contact-type" aria-label="Default select example">
+                                <option value='' selected>Selecciona una carrera</option>
+                                <option value="software">Software</option>
+                                <option value="redes">Redes</option>
+                                <option value="multimedia">Multimedia</option>
+                              </select>
+                        </div>
+
+                    
+
+
+                        <button id="validar" class="btn float-end mt-4 btn-outline-primary" href="">Registrar</button>
+
+                        <button id="clear" class="btn float-end mt-4 btn-warning mx-2" href="">Limpiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+<script src="assets/js/lib/jquerry/jquery-3.6.0.min.js"></script>
+<script src="assets/js/lib/bootstrap/bootstrap.min.js"></script>
+<script src="assets/js/lib/toastr/toastr.min.js"></script>
+<script src="assets/js/site/indexjquerry.js"></script>    
+</body>
+</html>
